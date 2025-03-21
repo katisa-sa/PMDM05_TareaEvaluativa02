@@ -26,6 +26,10 @@ export class LeafletPage implements OnInit {
 
     // Mensaje del marcador
     marker.bindPopup('<b>Madrid</b><br>Capital de España').openPopup();
+
+    setTimeout(() => {
+      map.invalidateSize();
+    }, 100);
   }
 
 }
