@@ -34,12 +34,12 @@ export class LeafletPage implements OnInit {
     });
 
     // Añadir un marcador en Madrid 
-    const marker = L.marker([40.4168, -3.7038], { icon }).addTo(map!);
+    const marker = L.marker([40.4168, -3.7038], {icon}).addTo(map!);
     // Mensaje del marcador
     marker.bindPopup('<b>Madrid</b>').openPopup();
     
     // Añadir un marcador en Madrid 
-    const marker1 = L.marker([40.9478, -4.1106], { icon }).addTo(map!);
+    const marker1 = L.marker([40.9478, -4.1106], {icon}).addTo(map!);
     // Mensaje del marcador
     marker1.bindPopup('<b>Segovia</b>').openPopup();
 
